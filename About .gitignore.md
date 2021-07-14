@@ -1,3 +1,3 @@
-###Check the File That You Are Trying to Ignore  
+### Check the File That You Are Trying to Ignore  
 To make .gitignore work, you have to ensure that the file should not be part of the repository yet. The file won’t be ignored once it is already added to the repository. Even if you have changed its name or rule in the .gitignore file, Git can’t ignore it. This is because Git can only ignore the untracked files.  
 Thus, you need to check the repository and make sure that the file that you are trying to ignore is not added to the repository. If it is, you should remove the file from your repository, and then copy the contents of the file and add its name to .gitignore.
